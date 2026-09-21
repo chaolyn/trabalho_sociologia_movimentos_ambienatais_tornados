@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c0a">
+  <meta name="description" content="Experiência interativa sobre El Niño, desmatamento e pH da água — Era dos Extremos.">
+  <title>Era dos Extremos — Clima, Floresta e Água</title>
+  <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#inicio" aria-label="Era dos Extremos — início">
+        <span class="logo-mark" aria-hidden="true"></span>
+        ERA DOS EXTREMOS
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#el-nino">El Niño</a>
+        <a href="#simulacao">Simulação</a>
+        <a href="#laboratorio">Laboratório de pH</a>
+        <a href="#fontes">Fontes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-atmosphere" aria-hidden="true">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="latitude latitude-one"></span>
+        <span class="latitude latitude-two"></span>
+        <span class="latitude latitude-three"></span>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">SOCIOLOGIA • AMBIENTE • EXPERIÊNCIA INTERATIVA</span>
+          <h1 id="hero-title">Clima, floresta<br><span>e água.</span></h1>
+          <p>Três sistemas conectados. Uma leitura crítica dos extremos que atravessam territórios, ecossistemas e vidas.</p>
+          <a class="button button-primary" href="#el-nino">Começar a experiência <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="hero-index" aria-label="Áreas da experiência">
+          <a href="#el-nino" class="theme-card">
+            <span class="theme-number">01</span>
+            <span class="theme-icon" aria-hidden="true">≈</span>
+            <strong>El Niño</strong>
+            <small>Oceano, atmosfera e extremos</small>
+          </a>
+          <a href="#simulacao" class="theme-card">
+            <span class="theme-number">02</span>
+            <span class="theme-icon" aria-hidden="true">♧</span>
+            <strong>Floresta</strong>
+            <small>Desmatamento em perspectiva</small>
+          </a>
+          <a href="#laboratorio" class="theme-card">
+            <span class="theme-number">03</span>
+            <span class="theme-icon" aria-hidden="true">⌁</span>
+            <strong>Água</strong>
+            <small>Laboratório virtual de pH</small>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span> role para explorar</div>
+    </section>
+
+    <section class="section el-nino" id="el-nino" aria-labelledby="el-nino-title">
+      <div class="section-label">01 / EL NIÑO &amp; EVENTOS EXTREMOS</div>
+      <div class="section-heading">
+        <h2 id="el-nino-title">Quando o Pacífico muda,<br><span>a atmosfera responde.</span></h2>
+        <p>El Niño é o aquecimento anormal e persistente das águas superficiais do Pacífico Equatorial. A mudança altera trocas de calor e umidade e reorganiza a circulação dos ventos em grande escala.</p>
+      </div>
+
+      <div class="process-grid" aria-label="Como o El Niño funciona">
+        <article class="process-card">
+          <span>01</span>
+          <div class="process-symbol ocean" aria-hidden="true">≈≈≈</div>
+          <h3>O oceano aquece</h3>
+          <p>Águas mais quentes se espalham pelo Pacífico Equatorial central e leste.</p>
+        </article>
+        <article class="process-card">
+          <span>02</span>
+          <div class="process-symbol wind" aria-hidden="true">→ →</div>
+          <h3>Os ventos mudam</h3>
+          <p>Os alísios enfraquecem e a circulação atmosférica tropical se reorganiza.</p>
+        </article>
+        <article class="process-card">
+          <span>03</span>
+          <div class="process-symbol cloud" aria-hidden="true">☁</div>
+          <h3>A chuva se desloca</h3>
+          <p>Regiões de subida do ar, formação de nuvens e descida de ar seco mudam de posição.</p>
+        </article>
+        <article class="process-card accent-card">
+          <span>04</span>
+          <div class="process-symbol pulse" aria-hidden="true">⌁</div>
+          <h3>Os riscos se alteram</h3>
+          <p>A probabilidade de certos padrões de seca, calor e chuva intensa aumenta — de forma diferente em cada região.</p>
+        </article>
+      </div>
+
+      <div class="impact-layout">
+        <div>
+          <span class="mini-label">POSSÍVEIS EFEITOS NO BRASIL</span>
+          <div class="impact-list">
+            <article><span>NORTE</span><strong>Menos chuva em parte da Amazônia</strong><p>Maior risco de estiagem, rios baixos, calor e incêndios, dependendo da estação e de outros fatores.</p></article>
+            <article><span>NORDESTE</span><strong>Seca mais provável em áreas do norte</strong><p>A distribuição das chuvas pode ser reduzida ou irregular, com impactos sobre água e agricultura.</p></article>
+            <article><span>SUL</span><strong>Chuva acima da média</strong><p>Frentes podem permanecer mais tempo sobre a região, elevando o risco de temporais, cheias e enchentes.</p></article>
+            <article><span>OUTRAS REGIÕES</span><strong>Calor e regime de chuvas alterado</strong><p>Centro-Oeste e Sudeste podem ter temperaturas elevadas e mudanças na duração e posição dos períodos chuvosos.</p></article>
+          </div>
+        </div>
+        <aside class="science-note">
+          <span class="mini-label">CORRELAÇÃO NÃO É CAUSA ÚNICA</span>
+          <strong>El Niño favorece condições. Não explica sozinho cada desastre.</strong>
+          <p>Tornados, enchentes e ondas de calor dependem de uma combinação de condições meteorológicas, vulnerabilidade social, ocupação do território e infraestrutura. A mudança climática aquece o pano de fundo e pode intensificar muitos extremos; a atribuição de um evento específico exige estudo próprio.</p>
+          <a href="https://www.gov.br/inmet/pt-br/assuntos/noticias/o-que-e-e-quais-os-impactos-do-el-nino-entenda-agora" target="_blank" rel="noopener noreferrer">Entenda no INMET ↗</a>
+        </aside>
+      </div>
+
+      <div class="tv-block" aria-labelledby="tv-title">
+        <div class="tv-heading">
+          <div>
+            <span class="mini-label">ARQUIVO DE CAMPO / VÍDEOS REAIS</span>
+            <h3 id="tv-title">Central de observação</h3>
+          </div>
+          <p>Selecione uma reportagem. O vídeo do YouTube só é carregado quando você apertar reproduzir.</p>
+        </div>
+
+        <div class="tv-grid">
+          <div class="tv-screen-shell" id="video-shell">
+            <div class="tv-screen" id="video-screen">
+              <div class="video-scanlines" aria-hidden="true"></div>
+              <div class="video-placeholder">
+                <span class="signal-label">SINAL 01 / EVENTO EXTREMO</span>
+                <button class="play-button" id="play-video" type="button" aria-label="Reproduzir vídeo selecionado">
+                  <span aria-hidden="true">▶</span>
+                </button>
+                <p>O player será conectado após o clique.</p>
+              </div>
+            </div>
+            <div class="tv-controls">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span id="video-source">CNN BRASIL</span>
+              <button class="icon-button" id="video-fullscreen" type="button" aria-label="Exibir vídeo em tela cheia">⛶ <span>Tela cheia</span></button>
+            </div>
+          </div>
+
+          <div class="video-panel">
+            <div class="video-info" aria-live="polite">
+              <span class="video-category" id="video-category">TORNADO • BRASIL</span>
+              <h4 id="video-title">Tornado em Giruá, no Rio Grande do Sul</h4>
+              <div class="video-meta"><span id="video-duration">≈ 4 min</span><span id="video-channel">CNN Brasil</span></div>
+              <p id="video-description">Registro jornalístico e explicação meteorológica sobre o tornado que atingiu Giruá (RS) em 2026.</p>
+              <a id="video-external" href="https://www.youtube.com/watch?v=Cg3kUUniRgQ" target="_blank" rel="noopener noreferrer">Abrir diretamente no YouTube ↗</a>
+            </div>
+
+            <div class="video-playlist" role="list" aria-label="Lista de vídeos">
+              <button class="video-item active" type="button" role="listitem" data-id="Cg3kUUniRgQ" data-category="TORNADO • BRASIL" data-title="Tornado em Giruá, no Rio Grande do Sul" data-duration="≈ 4 min" data-channel="CNN Brasil" data-description="Registro jornalístico e explicação meteorológica sobre o tornado que atingiu Giruá (RS) em 2026.">
+                <span>01</span><div><strong>Tornado no Brasil</strong><small>CNN Brasil • ≈ 4 min</small></div><i aria-hidden="true">›</i>
+              </button>
+              <button class="video-item" type="button" role="listitem" data-id="JIosqudY9aM" data-category="ENCHENTES • RIO GRANDE DO SUL" data-title="A cronologia das inundações no Rio Grande do Sul" data-duration="10:45" data-channel="BBC News Brasil" data-description="Uma cronologia visual das chuvas e inundações de 2024, com contexto sobre a escalada do desastre.">
+                <span>02</span><div><strong>Enchentes no RS</strong><small>BBC News Brasil • 10:45</small></div><i aria-hidden="true">›</i>
+              </button>
+              <button class="video-item" type="button" role="listitem" data-id="EAumrLf-8_c" data-category="SECA • AMAZÔNIA" data-title="Seca histórica na Amazônia" data-duration="≈ 7 min" data-channel="BBC News Brasil" data-description="Comunidades, rios, fauna e floresta diante da seca de 2023 — e o debate científico sobre resiliência amazônica.">
+                <span>03</span><div><strong>Seca na Amazônia</strong><small>BBC News Brasil • ≈ 7 min</small></div><i aria-hidden="true">›</i>
+              </button>
+              <button class="video-item" type="button" role="listitem" data-id="AHCuljr2v_Y" data-category="CIÊNCIA • EL NIÑO" data-title="El Niño: como funciona e quais os impactos" data-duration="≈ 9 min" data-channel="CNN Brasil" data-description="Entrevista com meteorologista sobre o mecanismo do fenômeno e possíveis efeitos em diferentes regiões brasileiras.">
+                <span>04</span><div><strong>Entenda o El Niño</strong><small>CNN Brasil • ≈ 9 min</small></div><i aria-hidden="true">›</i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="verification-note">Links e disponibilidade de incorporação verificados em 21/09/2026. Durações marcadas com “≈” são aproximadas e podem variar com edições do canal.</p>
+      </div>
+    </section>
+
+    <section class="section simulation-section" id="simulacao" aria-labelledby="simulation-title">
+      <div class="section-label">02 / SIMULAÇÃO DE DESMATAMENTO</div>
+      <div class="section-heading">
+        <h2 id="simulation-title">A floresta é uma rede.<br><span>Retire partes e observe.</span></h2>
+        <p>Uma representação visual para discutir como a retirada de vegetação modifica habitat, solo e umidade. Os números são índices didáticos internos — não equivalências ambientais reais.</p>
+      </div>
+
+      <div class="simulation-app" id="simulation-app">
+        <div class="canvas-wrap">
+          <canvas id="forest-canvas" aria-label="Floresta virtual em perspectiva que muda conforme os controles"></canvas>
+          <div class="canvas-overlay">
+            <span class="live-badge"><i aria-hidden="true"></i> SIMULAÇÃO EDUCATIVA</span>
+            <button class="icon-button canvas-fullscreen" id="simulation-fullscreen" type="button" aria-label="Exibir simulação em tela cheia">⛶ <span>Tela cheia</span></button>
+          </div>
+          <div class="land-status" id="land-status">Floresta íntegra: cobertura, sombra e umidade preservadas.</div>
+        </div>
+
+        <div class="simulation-dashboard">
+          <div class="sim-readout">
+            <span class="mini-label">COBERTURA FLORESTAL</span>
+            <strong><span id="forest-percent">100</span><small>%</small></strong>
+            <div class="meter"><i id="forest-meter"></i></div>
+          </div>
+
+          <dl class="indicator-grid">
+            <div><dt>Árvores</dt><dd id="tree-count">180</dd><small>contagem ilustrativa</small></div>
+            <div><dt>Solo exposto</dt><dd id="soil-value">0%</dd><small>índice visual</small></div>
+            <div><dt>Habitat</dt><dd id="habitat-value">100%</dd><small>índice didático</small></div>
+            <div><dt>Umidade</dt><dd id="moisture-value">Alta</dd><small>tendência ilustrada</small></div>
+          </dl>
+
+          <div class="simulation-controls" aria-label="Controles da simulação">
+            <button class="control-button danger" id="remove-tree" type="button"><span aria-hidden="true">−</span> Retirar uma árvore</button>
+            <button class="control-button danger-outline" id="accelerate" type="button"><span aria-hidden="true">»</span> Desmatamento acelerado</button>
+            <button class="control-button restore" id="reforest" type="button"><span aria-hidden="true">+</span> Reflorestar</button>
+            <button class="control-button" id="pause-simulation" type="button"><span aria-hidden="true">Ⅱ</span> Pausar</button>
+            <button class="control-button" id="reset-simulation" type="button"><span aria-hidden="true">↻</span> Reiniciar simulação</button>
+          </div>
+
+          <div class="consequence-box">
+            <span class="mini-label">LEITURA SOCIOAMBIENTAL</span>
+            <p id="consequence-text">Com cobertura alta, raízes protegem o solo, a evapotranspiração ajuda a reciclar umidade e há mais espaço contínuo para a biodiversidade.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="deforestation-context">
+        <article><span>CAUSAS</span><p>Expansão agropecuária, extração ilegal de madeira e minerais, grilagem, obras e incêndios associados à ocupação do território.</p></article>
+        <article><span>IMPACTOS ECOLÓGICOS</span><p>Perda e fragmentação de habitat, erosão, alteração do ciclo da água, emissão de gases de efeito estufa e menor resiliência da floresta.</p></article>
+        <article><span>IMPACTOS SOCIAIS</span><p>Conflitos territoriais, pressão sobre povos indígenas e comunidades tradicionais, perda de recursos e mudanças no acesso à água e aos alimentos.</p></article>
+      </div>
+      <p class="educational-disclaimer"><strong>Importante:</strong> esta simulação é educativa, qualitativa e não é uma previsão científica. Cada árvore desenhada representa apenas uma unidade gráfica.</p>
+    </section>
+
+    <section class="section ph-section" id="laboratorio" aria-labelledby="ph-title">
+      <div class="section-label">03 / LABORATÓRIO VIRTUAL DE pH</div>
+      <div class="section-heading">
+        <h2 id="ph-title">Uma escala pequena.<br><span>Grandes diferenças químicas.</span></h2>
+        <p>Explore valores de 0 a 14. A escala de pH indica a acidez ou basicidade de uma solução aquosa; cada unidade representa uma mudança de dez vezes na atividade de íons hidrogênio.</p>
+      </div>
+
+      <div class="lab-app" id="lab-app">
+        <div class="lab-visual">
+          <div class="beaker-stage">
+            <div class="beaker" aria-hidden="true">
+              <div class="beaker-marks"><i></i><i></i><i></i><i></i></div>
+              <div class="liquid" id="liquid"><span class="bubble b1"></span><span class="bubble b2"></span><span class="bubble b3"></span></div>
+            </div>
+            <div class="ph-reading">
+              <span>pH</span>
+              <strong id="ph-number">7.0</strong>
+              <em id="ph-classification">NEUTRO</em>
+            </div>
+          </div>
+          <div class="sample-info" aria-live="polite">
+            <span class="mini-label">AMOSTRA SELECIONADA</span>
+            <h3 id="sample-name">Água pura</h3>
+            <p id="sample-explanation">Em condições de referência, a água pura é neutra. Na natureza, sais, gases e outras substâncias alteram esse valor.</p>
+          </div>
+        </div>
+
+        <div class="lab-controls">
+          <div class="range-row">
+            <label for="ph-range">Mover o medidor</label>
+            <output id="ph-output" for="ph-range">7.0</output>
+          </div>
+          <input id="ph-range" class="ph-range" type="range" min="0" max="14" step="0.1" value="7" aria-describedby="ph-rule">
+          <div class="ph-scale" id="ph-scale" aria-label="Selecionar um valor inteiro de pH"></div>
+          <div class="scale-legend" id="ph-rule">
+            <span>0 — ÁCIDO</span><span>7 — NEUTRO</span><span>14 — BÁSICO</span>
+          </div>
+
+          <div class="sample-buttons" aria-label="Exemplos de amostras">
+            <button type="button" data-ph="2.2" data-name="Suco de limão" data-description="Muito ácido. O valor varia com a fruta e a medição.">Suco de limão <small>≈ 2,2</small></button>
+            <button type="button" data-ph="5" data-name="Café" data-description="Levemente ácido. Torra, preparo e grão mudam o resultado.">Café <small>≈ 5,0</small></button>
+            <button type="button" class="active" data-ph="7" data-name="Água pura" data-description="Em condições de referência, a água pura é neutra. Na natureza, sais, gases e outras substâncias alteram esse valor.">Água pura <small>≈ 7,0</small></button>
+            <button type="button" data-ph="8.1" data-name="Água do mar" data-description="Em geral é levemente básica, mas varia conforme local, temperatura e condições ambientais.">Água do mar <small>≈ 8,1</small></button>
+            <button type="button" data-ph="8.3" data-name="Solução de bicarbonato" data-description="Exemplo doméstico de solução levemente básica; a concentração altera o valor.">Bicarbonato <small>≈ 8,3</small></button>
+            <button type="button" data-ph="10" data-name="Água com sabão" data-description="Normalmente básica. A composição e a diluição do produto fazem o pH variar.">Água com sabão <small>≈ 10</small></button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="water-warning">
+        <span aria-hidden="true">!</span>
+        <div><strong>pH não é teste de potabilidade.</strong><p>O pH sozinho não determina se uma água é própria para consumo. A qualidade da água depende de outros parâmetros físicos, químicos e microbiológicos.</p></div>
+      </aside>
+    </section>
+
+    <section class="section sources" id="fontes" aria-labelledby="sources-title">
+      <div class="section-label">FONTES &amp; METODOLOGIA</div>
+      <div class="section-heading">
+        <h2 id="sources-title">Ciência pública,<br><span>links verificáveis.</span></h2>
+        <p>Foram priorizados órgãos públicos, instituições científicas e veículos jornalísticos reconhecidos. A lista completa, incluindo os quatro vídeos, está no arquivo do projeto.</p>
+      </div>
+      <div class="sources-grid">
+        <a href="https://www.gov.br/inpe/pt-br/acesso-a-informacao/perguntas-frequentes/principais-produtos-e-servicos-do-inpe/previsao-de-tempo-e-clima/o-que-e-el-nino" target="_blank" rel="noopener noreferrer"><span>INPE</span><strong>O que é El Niño e La Niña?</strong><small>gov.br/inpe ↗</small></a>
+        <a href="https://portal.inmet.gov.br/noticias/o-que-%C3%A9-e-quais-os-impactos-do-el-ni%C3%B1o-entenda-agora" target="_blank" rel="noopener noreferrer"><span>INMET</span><strong>Mecanismo e impactos no Brasil</strong><small>portal.inmet.gov.br ↗</small></a>
+        <a href="https://www.gov.br/cemaden/pt-br/assuntos/monitoramento/el-nino" target="_blank" rel="noopener noreferrer"><span>CEMADEN</span><strong>Monitoramento e boletins do El Niño</strong><small>gov.br/cemaden ↗</small></a>
+        <a href="https://www.gov.br/mma/pt-br/assuntos/controle-ao-desmatamento-queimadas-e-ordenamento-ambiental-territorial" target="_blank" rel="noopener noreferrer"><span>MMA</span><strong>Desmatamento e impactos ambientais</strong><small>gov.br/mma ↗</small></a>
+        <a href="https://www.gov.br/inpe/pt-br/acesso-a-informacao/dados-abertos/monitoramento-ambiental" target="_blank" rel="noopener noreferrer"><span>INPE</span><strong>Monitoramento ambiental: PRODES e DETER</strong><small>gov.br/inpe ↗</small></a>
+        <a href="https://www.gov.br/ana/pt-br/assuntos/monitoramento-e-eventos-criticos/qualidade-da-agua" target="_blank" rel="noopener noreferrer"><span>ANA</span><strong>Qualidade da água e seus parâmetros</strong><small>gov.br/ana ↗</small></a>
+        <a href="https://www.gov.br/funasa/pt-br/assuntos/materias-especiais/agua-transparente-e-sempre-segura-para-beber" target="_blank" rel="noopener noreferrer"><span>FUNASA</span><strong>Água limpa não é necessariamente potável</strong><small>gov.br/funasa ↗</small></a>
+        <a href="FONTES.md"><span>DOCUMENTAÇÃO</span><strong>Bibliografia, vídeos e notas metodológicas</strong><small>Abrir FONTES.md ↗</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>ERA DOS EXTREMOS</div>
+    <p>Clima, Floresta e Água • experiência educativa • 2026</p>
+    <a href="#inicio">Voltar ao início ↑</a>
+  </footer>
+
+  <noscript><div class="noscript">Este site precisa de JavaScript para executar a simulação, o laboratório de pH e o player sob demanda.</div></noscript>
+</body>
+</html>
